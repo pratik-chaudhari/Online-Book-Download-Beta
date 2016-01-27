@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1">
+<suite name="TestingSuite">
 
   <test name="exampletest1">
     <classes>
-       <class name="TestNG_Package.Test1" />
+       <class name="TestNG_Package.TestNG_Classes.Class_test" />
     </classes>
   </test>
   
-  <test name="exampletest2">
+  <!-- <test name="exampletest2">
     <classes>
        <class name="TestNG_Package.Test2" />
     </classes>
-  </test>
+  </test> -->
   
 </suite>  	

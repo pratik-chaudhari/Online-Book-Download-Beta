@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="34" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
+  <suite name="TestingSuite" duration-ms="20" started-at="2016-01-27T14:45:25Z" finished-at="2016-01-27T14:45:26Z">
     <groups>
     </groups>
-    <test name="exampletest1" duration-ms="17" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
-      <class name="TestNG_Package.Test1">
-        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:TestNG_Package.Test1@54415988]" name="testPrintMessage" duration-ms="9" started-at="2016-01-27T11:38:03Z" finished-at="2016-01-27T11:38:03Z">
+    <test name="exampletest1" duration-ms="20" started-at="2016-01-27T14:45:25Z" finished-at="2016-01-27T14:45:26Z">
+      <class name="TestNG_Package.TestNG_Classes.Class_test">
+        <test-method status="PASS" signature="addData()[pri:0, instance:TestNG_Package.TestNG_Classes.Class_test@2009d3af]" name="addData" duration-ms="8" started-at="2016-01-27T20:15:26Z" finished-at="2016-01-27T20:15:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPrintMessage -->
-      </class> <!-- TestNG_Package.Test1 -->
+        </test-method> <!-- addData -->
+        <test-method status="PASS" signature="retrieveData()[pri:0, instance:TestNG_Package.TestNG_Classes.Class_test@2009d3af]" name="retrieveData" duration-ms="2" started-at="2016-01-27T20:15:26Z" depends-on-methods="TestNG_Package.TestNG_Classes.Class_test.addData" finished-at="2016-01-27T20:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveData -->
+      </class> <!-- TestNG_Package.TestNG_Classes.Class_test -->
     </test> <!-- exampletest1 -->
-    <test name="exampletest2" duration-ms="2" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
-      <class name="TestNG_Package.Test2">
-        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:TestNG_Package.Test2@26538d04]" name="testSalutationMessage" duration-ms="0" started-at="2016-01-27T11:38:03Z" finished-at="2016-01-27T11:38:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSalutationMessage -->
-      </class> <!-- TestNG_Package.Test2 -->
-    </test> <!-- exampletest2 -->
-  </suite> <!-- Suite1 -->
+  </suite> <!-- TestingSuite -->
 </testng-results>
