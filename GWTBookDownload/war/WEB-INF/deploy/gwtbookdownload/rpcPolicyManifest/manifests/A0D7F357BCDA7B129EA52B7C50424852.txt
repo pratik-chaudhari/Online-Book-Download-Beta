@@ -1,2 +1,0 @@
-serviceClass: com.bookdownload.gwt.client.GreetingService
-path: 595CB077A9325F0899FC973B32466EEE.gwt.rpc
