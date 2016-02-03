@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="116" started-at="2016-01-26T17:42:49Z" finished-at="2016-01-26T17:42:49Z">
+  <suite name="Suite1" duration-ms="34" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="116" started-at="2016-01-26T17:42:49Z" finished-at="2016-01-26T17:42:49Z">
+    <test name="exampletest1" duration-ms="17" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
       <class name="TestNG_Package.Test1">
-        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:TestNG_Package.Test1@2be94b0f]" name="testPrintMessage" duration-ms="49" started-at="2016-01-26T23:12:49Z" finished-at="2016-01-26T23:12:49Z">
+        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:TestNG_Package.Test1@54415988]" name="testPrintMessage" duration-ms="9" started-at="2016-01-27T11:38:03Z" finished-at="2016-01-27T11:38:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrintMessage -->
       </class> <!-- TestNG_Package.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- exampletest1 -->
+    <test name="exampletest2" duration-ms="2" started-at="2016-01-27T06:08:03Z" finished-at="2016-01-27T06:08:03Z">
+      <class name="TestNG_Package.Test2">
+        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:TestNG_Package.Test2@26538d04]" name="testSalutationMessage" duration-ms="0" started-at="2016-01-27T11:38:03Z" finished-at="2016-01-27T11:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalutationMessage -->
+      </class> <!-- TestNG_Package.Test2 -->
+    </test> <!-- exampletest2 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
